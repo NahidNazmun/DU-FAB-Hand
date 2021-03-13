@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/20/18||16:15:56" using="Simscape Multibody Link Version 5.0" from="SolidWorks 25.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="hand" uid="hand" version="446">
+<AssemblyFile name="hand.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="interPart-1" uid="interPart-1" entityUid="interPart*:*Default">
+<Transform>
+<Rotation>0.0087264635651897477 -3.543232570883399e-005 0.9999619230641712 0.0040602969773685382 0.99999175696025377 1.9099305470504646e-015 -0.9999536803382949 0.0040601423737008924 0.0087265354983687114</Rotation>
+<Translation>0.093232228838293157 -0.02920665700266771 0.10316849437738192</Translation>
+</Transform>
+</Instance>
+<Instance name="interPart-3" uid="interPart-3" entityUid="interPart*:*Default">
+<Transform>
+<Rotation>0.0087264635651947507 -3.5432324086123466e-005 0.9999619230641712 0.0040602967916371635 0.99999175696100795 0 -0.99995368033904897 0.0040601421879767835 0.0087265354983671259</Rotation>
+<Translation>0.068192006429008578 -0.028495198101322769 0.10766844219181548</Translation>
+</Transform>
+</Instance>
+<Instance name="distalPart-3" uid="distalPart-3" entityUid="distalPart*:*Default">
+<Transform>
+<Rotation>0.0087128866112347186 -0.00048788185461742187 0.99996192306417131 0.055907851942705367 0.99843593289261812 1.8362047993214503e-015 -0.99839791551167245 0.055905723143014729 0.0087265354983692232</Rotation>
+<Translation>0.075379516175835451 -0.023236053474539435 0.098053793207717899</Translation>
+</Transform>
+</Instance>
+<Instance name="connector1-4" uid="connector1-4" entityUid="connector1*:*Default">
+<Transform>
+<Rotation>0.0083207156174768988 0.0026302306775825243 0.99996192306417131 -0.30140605949241256 0.95349587691885473 2.6671373443143409e-016 -0.95345957071753662 -0.30139458287322696 0.0087265354983647528</Rotation>
+<Translation>0.014978116815489967 -0.025768031314031162 0.053091207246312527</Translation>
+</Transform>
+</Instance>
+<Instance name="interLitttle-1" uid="interLitttle-1" entityUid="interLitttle*:*Default">
+<Transform>
+<Rotation>0.008726463565194801 -3.5432324086131367e-005 0.99996192306417142 0.0040602967916391619 0.99999175696100795 0 -0.99995368033904919 0.004060142187978788 0.0087265354983671675</Rotation>
+<Translation>0.015405106348342371 -0.029819397149528776 0.094202729299626212</Translation>
+</Transform>
+</Instance>
+<Instance name="proximalLittle-3" uid="proximalLittle-3" entityUid="proximalLittle*:*Default">
+<Transform>
+<Rotation>0.0087265354983671259 0 0.99996192306417131 2.2204460492503128e-016 1 0 -0.99996192306417131 2.2195043800040187e-016 0.0087265354983671259</Rotation>
+<Translation>-0.0062694307457384912 0.00068978195448847739 0.063744121367471124</Translation>
+</Transform>
+</Instance>
+<Instance name="distalPart-4" uid="distalPart-4" entityUid="distalPart*:*Default">
+<Transform>
+<Rotation>0.0087128866114178239 -0.0004878818512653133 0.99996192306417142 0.055907851558786303 0.99843593291411581 2.6454533008646308e-016 -0.99839791553316914 0.055905722759110189 0.0087265354983646314</Rotation>
+<Translation>0.025500871375842782 -0.022841316899075571 0.095114073912202349</Translation>
+</Transform>
+</Instance>
+<Instance name="connector2-4" uid="connector2-4" entityUid="connector2*:*Default">
+<Transform>
+<Rotation>0.0076763380710196038 0.0041504524601140196 0.99996192306417142 -0.47561285471083597 0.87965471205116008 -5.2085072366203633e-016 -0.87962121749513789 -0.47559474483068787 0.0087265354983665482</Rotation>
+<Translation>0.039371886112773938 0.0065907810004974931 0.11148307210751918</Translation>
+</Transform>
+</Instance>
+<Instance name="connector1-3" uid="connector1-3" entityUid="connector1*:*Default">
+<Transform>
+<Rotation>0.0083207156174226662 0.0026302306777665901 0.9999619230641712 -0.30140605951357757 0.95349587691216464 2.1200489280781554e-015 -0.95345957071084653 -0.30139458289439114 0.0087265354983685275</Rotation>
+<Translation>0.064856761615375444 -0.026162767893159827 0.056030926554021629</Translation>
+</Transform>
+</Instance>
+<Instance name="proximalPart-2" uid="proximalPart-2" entityUid="proximalPart*:*Default">
+<Transform>
+<Rotation>0.0087265354983654016 0 0.99996192306417142 0 1 0 -0.99996192306417142 0 0.0087265354983654016</Rotation>
+<Translation>0.02767763419326693 0.0010692326336494838 0.069958232479273297</Translation>
+</Transform>
+</Instance>
+<Instance name="connector2-3" uid="connector2-3" entityUid="connector2*:*Default">
+<Transform>
+<Rotation>0.0076763380710185543 0.0041504524601127862 0.99996192306417131 -0.47561285471084008 0.87965471205115797 1.0711917464156784e-016 -0.87962121749513578 -0.47559474483069175 0.0087265354983650355</Rotation>
+<Translation>0.014533463722104015 0.0062740586798711619 0.10404340499327912</Translation>
+</Transform>
+</Instance>
+<Instance name="interPart-4" uid="interPart-4" entityUid="interPart*:*Default">
+<Transform>
+<Rotation>-0.95354833541717632 0.15067139281853886 -0.26085188021030958 0.15607488711442599 0.98774522505159146 -6.4531713306337224e-016 0.25765519912346296 -0.040712427757410449 -0.96537883578973605</Rotation>
+<Translation>0.13198520217624909 -0.033619715530295163 -0.053237910564880968</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="connector1-7" uid="connector1-7" entityUid="connector1*:*Default">
+<Transform>
+<Rotation>0.008320715617479095 0.0026302306775834792 0.99996192306417131 -0.301406059492414 0.95349587691885451 0 -0.95345957071753618 -0.30139458287322834 0.0087265354983671363</Rotation>
+<Translation>-0.0099704751053130425 -0.0267755080416123 0.047091341074858614</Translation>
+</Transform>
+</Instance>
+<Instance name="fullPalm-1" uid="fullPalm-1" grounded="true" entityUid="fullPalm*:*Default">
+<Transform>
+<Rotation>0.99992384757819586 -0.0087265354983671328 0.0087262032186349557 0.0087265354983671328 0 -0.99996192306417142 0.0087262032186349557 0.99996192306417142 7.6152421804261697e-005</Rotation>
+<Translation>-0.018140109849399066 -0.02769210248148549 -0.077677645316765589</Translation>
+</Transform>
+</Instance>
+<Instance name="proximalPart-4" uid="proximalPart-4" entityUid="proximalPart*:*Default">
+<Transform>
+<Rotation>-0.96254652848982925 0.073895040990070146 -0.26085188021031058 0.076545122236515342 0.99706611829998359 -2.2898349882893854e-016 0.26008657165254678 -0.019966939056323317 -0.96537883578973582</Rotation>
+<Translation>0.11184260941877588 -0.001157820007823018 -0.031284101008621758</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="proximalPart-3" uid="proximalPart-3" entityUid="proximalPart*:*Default">
+<Transform>
+<Rotation>0.0087265354983665378 -2.9379168368925956e-016 0.99996192306417131 1.6653345369377348e-016 0.99999999999999989 2.8926513961913258e-016 -0.99996192306417131 3.3306690738754696e-016 0.0087265354983665396</Rotation>
+<Translation>0.052516056583936863 0.0013859549542754313 0.077397899593513259</Translation>
+</Transform>
+</Instance>
+<Instance name="distalPart-5" uid="distalPart-5" entityUid="distalPart*:*Default">
+<Transform>
+<Rotation>0.0087128866114202803 -0.00048788185126510746 0.99996192306417131 0.05590785155880388 0.9984359329141147 -2.3174821436877657e-016 -0.99839791553316826 0.055905722759127752 0.0087265354983670704</Rotation>
+<Translation>0.050339293766513429 -0.022524594578449166 0.10255374102644185</Translation>
+</Transform>
+</Instance>
+<Instance name="connector1-6" uid="connector1-6" entityUid="connector1*:*Default">
+<Transform>
+<Rotation>0.93822505002527423 -0.22735446354936217 0.26085188021030925 0.23550802557565165 0.97187240411972708 5.4210108624275222e-016 -0.25351474393914447 0.061432711276025828 0.96537883578973616</Rotation>
+<Translation>0.14184636837795342 -0.015604312332116173 -0.026084393505679496</Translation>
+</Transform>
+</Instance>
+<Instance name="connector1-5" uid="connector1-5" entityUid="connector1*:*Default">
+<Transform>
+<Rotation>0.0083207156174790135 0.0026302306775840014 0.99996192306417131 -0.30140605949241356 0.95349587691885462 -4.9613091412936683e-016 -0.9534595707175364 -0.30139458287322796 0.0087265354983672144</Rotation>
+<Translation>0.039816539206159941 -0.025451308993405215 0.0605308743605526</Translation>
+</Transform>
+</Instance>
+<Instance name="connector2-2" uid="connector2-2" entityUid="connector2*:*Default">
+<Transform>
+<Rotation>0.0076763380717566939 0.0041504524587563582 0.99996192306417131 -0.47561285455534708 0.87965471213523005 1.807581861967833e-015 -0.87962121757920486 -0.47559474467520485 0.008726535498369211</Rotation>
+<Translation>0.064412108521992473 0.0058793220989366481 0.10698312430062223</Translation>
+</Transform>
+</Instance>
+<Instance name="proximalPart-1" uid="proximalPart-1" entityUid="proximalPart*:*Default">
+<Transform>
+<Rotation>0.0087265354983693411 -1.9336254467169564e-015 0.99996192306417164 1.1102230246251565e-016 1 1.9316145905001747e-015 -0.99996192306417131 1.3877787807814457e-016 0.0087265354983693377</Rotation>
+<Translation>0.077556278993166777 0.00067449605453068131 0.072897951785252824</Translation>
+</Transform>
+</Instance>
+<Instance name="interPart-2" uid="interPart-2" entityUid="interPart*:*Default">
+<Transform>
+<Rotation>0.0087264635651923966 -3.5432324086399788e-005 0.99996192306417142 0.0040602967916317789 0.99999175696100806 3.2786273695961654e-016 -0.9999536803390493 0.004060142187971405 0.0087265354983647736</Rotation>
+<Translation>0.043353584038337938 -0.028811920421949095 0.1002287750775756</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>-0.0020498878513450225 0.10168156550072471 -0.027711046052310201</Position>
+<Axis>-0.0087265354983671328 0 0.99996192306417142</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hand</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-1</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826754 -0.00684622451351595</Position>
+<Axis>0 0 1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-1</Uid>
+</InstancePath>
+<Position>0.0087543133132536449 0.033202622963338091 -0.019785734430989563</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-1</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826754 -0.018846224513515974</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-1</Uid>
+</InstancePath>
+<Position>-0.016322816561519543 0.035580035209635132 -0.034785734430989562</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-1</Uid>
+</InstancePath>
+<Position>0.012811303658474674 0.038281090186702185 -0.019785734430989577</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-3</Uid>
+</InstancePath>
+<Position>-0.043276730067781016 0.023329974552006267 0.0030000000000000027</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-1</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826746 -0.0098462245135159665</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-3</Uid>
+</InstancePath>
+<Position>-0.043276730067781016 0.023329974552006267 0.0030000000000000027</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-1</Uid>
+</InstancePath>
+<Position>-0.023920528487658896 -0.0025093796332663386 -0.0098462245135159526</Position>
+<Axis>0 0 1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector2-2</Uid>
+</InstancePath>
+<Position>0.012710109827626215 -0.0018974650369240759 0.0029999999999999888</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-1</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826746 -0.0098462245135159665</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector2-2</Uid>
+</InstancePath>
+<Position>-0.0099098901723738142 -0.0018974650369240759 0.0029999999999999888</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-2</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.003356741327482675 -0.009846224513515963</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-4</Uid>
+</InstancePath>
+<Position>-0.043276730067781002 0.023329974552006246 0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-2</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826741 -0.0068462245135159604</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-2</Uid>
+</InstancePath>
+<Position>0.008754313313253631 0.033202622963338091 -0.019785734430989591</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-2</Uid>
+</InstancePath>
+<Position>-0.021513164608384913 0.0033567413274826741 -0.018846224513515964</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-2</Uid>
+</InstancePath>
+<Position>-0.016322816561519585 0.035580035209635145 -0.03478573443098959</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-4</Uid>
+</InstancePath>
+<Position>-0.043276730067781016 0.023329974552006243 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-2</Uid>
+</InstancePath>
+<Position>0.012811303658474646 0.038281090186702185 -0.037785734430989593</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-2</Uid>
+</InstancePath>
+<Position>-0.023920528487658882 -0.0025093796332663395 -0.009846224513515963</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector2-3</Uid>
+</InstancePath>
+<Position>0.012710109827626215 -0.0018974650369240689 0.0030000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-1</Uid>
+</InstancePath>
+<Position>-0.0166985633335867 0.033202622963338077 -0.019785734430989563</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>distalPart-3</Uid>
+</InstancePath>
+<Position>-0.020239190413369593 0.028339799627940025 -0.0048890679238056678</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector2-2</Uid>
+</InstancePath>
+<Position>-0.0099098901723738142 -0.0018974650369240759 0.0029999999999999888</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>distalPart-3</Uid>
+</InstancePath>
+<Position>-0.016817307368586804 0.033151603528923199 -0.0048890679238056817</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-1</Uid>
+</InstancePath>
+<Position>-0.016322816561519571 0.035580035209635139 -0.022785734430989565</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>distalPart-3</Uid>
+</InstancePath>
+<Position>-0.036507953184585551 0.032087765866985793 -0.0048890679238056678</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector2-3</Uid>
+</InstancePath>
+<Position>-0.0099098901723738003 -0.0018974650369240689 0.0029999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>distalPart-4</Uid>
+</InstancePath>
+<Position>-0.01681730736858679 0.033151603528923206 -0.016889067923805672</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-2</Uid>
+</InstancePath>
+<Position>-0.016322816561519585 0.035580035209635152 -0.02278573443098959</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>distalPart-4</Uid>
+</InstancePath>
+<Position>-0.036507953184585482 0.032087765866985786 -0.0048890679238056678</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-2</Uid>
+</InstancePath>
+<Position>-0.016698563333586713 0.033202622963338091 -0.019785734430989591</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>distalPart-4</Uid>
+</InstancePath>
+<Position>-0.020239190413369565 0.028339799627940025 -0.0048890679238056713</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-3</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826772 -0.0098462245135159596</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-5</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006263 0.0030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-5</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006257 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-3</Uid>
+</InstancePath>
+<Position>0.012811303658474646 0.038281090186702185 -0.037785734430989565</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-3</Uid>
+</InstancePath>
+<Position>-0.021513164608384885 0.0033567413274826772 -0.018846224513515961</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-3</Uid>
+</InstancePath>
+<Position>0.0087543133132536588 0.033202622963338091 -0.037785734430989572</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-3</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826772 -0.0068462245135159569</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-3</Uid>
+</InstancePath>
+<Position>-0.016322816561519571 0.035580035209635145 -0.022785734430989565</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-3</Uid>
+</InstancePath>
+<Position>-0.023920528487658882 -0.0025093796332663352 -0.0098462245135159526</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector2-4</Uid>
+</InstancePath>
+<Position>0.012710109827626187 -0.0018974650369240689 0.0029999999999999957</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector2-4</Uid>
+</InstancePath>
+<Position>-0.0099098901723738142 -0.0018974650369240689 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>distalPart-5</Uid>
+</InstancePath>
+<Position>-0.01681730736858679 0.033151603528923185 -0.0078890679238056635</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>distalPart-5</Uid>
+</InstancePath>
+<Position>-0.020239190413369565 0.028339799627940011 -0.016889067923805665</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-3</Uid>
+</InstancePath>
+<Position>-0.0166985633335867 0.033202622963338084 -0.037785734430989572</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>distalPart-5</Uid>
+</InstancePath>
+<Position>-0.036507953184585509 0.032087765866985779 -0.016889067923805665</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-3</Uid>
+</InstancePath>
+<Position>-0.016322816561519543 0.035580035209635145 -0.034785734430989562</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-4</Uid>
+</InstancePath>
+<Position>-0.021513164608384872 0.0033567413274826746 -0.015846224513515961</Position>
+<Axis>-1.1102230246251565e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-6</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006267 0.002999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-4</Uid>
+</InstancePath>
+<Position>0.012811303658474688 0.038281090186702185 -0.037785734430989565</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-6</Uid>
+</InstancePath>
+<Position>-0.0037267300677810145 0.02332997455200626 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalPart-4</Uid>
+</InstancePath>
+<Position>-0.021513164608384899 0.0033567413274826746 -0.018846224513515961</Position>
+<Axis>1.1102230246251565e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interPart-4</Uid>
+</InstancePath>
+<Position>-0.016322816561519571 0.035580035209635145 -0.034785734430989569</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-4</Uid>
+</InstancePath>
+<Position>-0.021513164608384872 0.0033567413274826763 -0.0068462245135159569</Position>
+<Axis>-1.1102230246251565e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interPart-4</Uid>
+</InstancePath>
+<Position>0.0087543133132536588 0.033202622963338084 -0.019785734430989584</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-7</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006257 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interLitttle-1</Uid>
+</InstancePath>
+<Position>0.01281130365847466 0.038281090186702185 -0.031785734430989587</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalLittle-3</Uid>
+</InstancePath>
+<Position>-0.021648875896717698 0.0027287152790626342 -0.012846224513515959</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>interLitttle-1</Uid>
+</InstancePath>
+<Position>0.0087543133132536449 0.033202622963338084 -0.031785734430989587</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-7</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006263 0.0029999999999999992</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interLitttle-1</Uid>
+</InstancePath>
+<Position>-0.016322816561519571 0.035580035209635145 -0.022785734430989579</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>proximalLittle-3</Uid>
+</InstancePath>
+<Position>-0.021648875896717684 0.0027287152790626337 0.0021537754864840359</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>interLitttle-1</Uid>
+</InstancePath>
+<Position>-0.016322816561519571 0.035580035209635145 -0.019785734430989577</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.084431165154674581 0.12996782804864773 -0.030645205943976361</Position>
+<Axis>0.99996192306417142 2.0573820425084932e-015 0.0087265354983652749</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-1</Uid>
+</InstancePath>
+<Position>0.019766937661722245 0.0030142320923107818 -0.0068462245135159638</Position>
+<Axis>0 0 1.0000000000000004</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.084374589258163116 0.12950083156870715 -0.024162250332863719</Position>
+<Axis>0.99996192306417142 2.0573820425084932e-015 0.0087265354983652749</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-3</Uid>
+</InstancePath>
+<Position>-0.0037267300677810283 0.023329974552006263 0.0030000000000000165</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.084452792521180473 0.11196782804818484 -0.033123456677738139</Position>
+<Axis>0.99996192306417142 2.0573820425084932e-015 0.0087265354983652749</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-3</Uid>
+</InstancePath>
+<Position>-0.043276730067781016 0.023329974552006267 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.11534947622564402 0.06287406688729992 -0.030047276634379227</Position>
+<Axis>-0.26925610761196972 -0.96306574392928457 -0.0023497624529820226</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-4</Uid>
+</InstancePath>
+<Position>0.019766937661722245 0.0030142320923107809 -0.018846224513515964</Position>
+<Axis>-1.1102230246251565e-016 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric49">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.11484316914063838 0.062999813330122501 -0.02356824576797717</Position>
+<Axis>-0.26925610761196972 -0.96306574392928457 -0.0023497624529820226</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-6</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006267 0.002999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.09803658027211766 0.067720861375398095 -0.032676803464732763</Position>
+<Axis>0.26925610761196972 0.96306574392928457 0.0023497624529820226</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-6</Uid>
+</InstancePath>
+<Position>-0.043276730067781016 0.023329974552006263 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.059438325649415355 0.13468611890242546 -0.031574801141005075</Position>
+<Axis>0.99996192306417142 0 0.0087265354983671328</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-3</Uid>
+</InstancePath>
+<Position>0.019766937661722252 0.0030142320923107774 -0.0068462245135159569</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.056381863983712116 0.13421912242127396 -0.025118025136474747</Position>
+<Axis>0.99996192306417142 0 0.0087265354983671328</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-5</Uid>
+</InstancePath>
+<Position>-0.0037267300677810283 0.023329974552006263 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.05945995301595057 0.11668611890242549 -0.034053051878128723</Position>
+<Axis>0.99996192306417142 0 0.0087265354983671328</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-5</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006257 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.031534225059879746 0.12746348844262839 -0.031501582156769341</Position>
+<Axis>0.99996192306417164 -1.3895135042574225e-015 0.0087265354983671346</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalPart-2</Uid>
+</InstancePath>
+<Position>0.019766937661722252 0.0030142320923107822 -0.018846224513515968</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.031477649163369016 0.12699649196147683 -0.025018626545743921</Position>
+<Axis>0.99996192306417164 -1.3895135042574225e-015 0.0087265354983671346</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-4</Uid>
+</InstancePath>
+<Position>-0.0037267300677810283 0.023329974552006257 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.034555738195607449 0.10946348844262838 -0.033953653287397918</Position>
+<Axis>0.99996192306417164 -1.3895135042574225e-015 0.0087265354983671346</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-4</Uid>
+</InstancePath>
+<Position>-0.043276730067781016 0.023329974552006243 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.0095262709710409177 0.1216815655007247 -0.030686127571778233</Position>
+<Axis>0.99996192306417142 0 0.0087265354983671328</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>proximalLittle-3</Uid>
+</InstancePath>
+<Position>0.01963122637338946 0.002386206043890741 0.0051537754864840355</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.009469695074530186 0.12121456901957317 -0.02420317196075281</Position>
+<Axis>0.99996192306417142 0 0.0087265354983671328</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector1-7</Uid>
+</InstancePath>
+<Position>-0.0037267300677810353 0.023329974552006257 0.0029999999999999992</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fullPalm-1</Uid>
+</InstancePath>
+<Position>0.0095478983375761328 0.1036815655007247 -0.033164378308901891</Position>
+<Axis>0.99996192306417142 0 0.0087265354983671328</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector1-7</Uid>
+</InstancePath>
+<Position>-0.04327673006778103 0.023329974552006257 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="connector1" uid="connector1*:*Default" version="246">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00045508942758782164</Mass>
+<CenterOfMass>-0.023501730067781043 0.023329974552006263 0.0015000000000000002</CenterOfMass>
+<Inertia>9.47958959526399e-010 8.8679053649576587e-008 8.8944378467721244e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector2" uid="connector2*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0003027194275878222</Mass>
+<CenterOfMass>0.0014001098276261979 -0.0018974650369240704 0.0015000000000000002</CenterOfMass>
+<Inertia>7.1940395952640154e-010 2.3502947352233217e-008 2.3768272170377884e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="distalPart" uid="distalPart*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="distalPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0025131433567753148</Mass>
+<CenterOfMass>-0.029426234870414594 0.032135823501986113 -0.010889067923805668</CenterOfMass>
+<Inertia>7.0910777755255356e-008 2.1496037513257659e-007 2.0322134234793838e-007 0 0 3.1073994384821664e-009</Inertia>
+</MassProperties>
+<GeometryFile name="distalPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="fullPalm" uid="fullPalm*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="fullPalm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11310580292310937</Mass>
+<CenterOfMass>0.052489270879453709 0.060174610829139649 -0.029751128982499032</CenterOfMass>
+<Inertia>0.0001774595954771542 9.2114329202991845e-005 0.00026470170387485136 -1.5714082225673209e-006 -1.1407008586964818e-006 -1.323017226551266e-005</Inertia>
+</MassProperties>
+<GeometryFile name="fullPalm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="interLitttle" uid="interLitttle*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="interLitttle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035264594953740083</Mass>
+<CenterOfMass>-0.0037233238391199642 0.035121713227853825 -0.025785734430989585</CenterOfMass>
+<Inertia>1.2379917332827117e-007 5.7857798098936668e-007 5.7869487998624368e-007 0 0 1.2447815694489861e-009</Inertia>
+</MassProperties>
+<GeometryFile name="interLitttle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="interPart" uid="interPart*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="interPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0029326984838455371</Mass>
+<CenterOfMass>-0.00072823720668580504 0.035510256742623592 -0.028785734430989574</CenterOfMass>
+<Inertia>2.1661576669488138e-007 5.4721529187863883e-007 4.3713750156335224e-007 0 0 2.1514312149513131e-008</Inertia>
+</MassProperties>
+<GeometryFile name="interPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="proximalLittle" uid="proximalLittle*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="proximalLittle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0057367930778900334</Mass>
+<CenterOfMass>0.0040681320430517257 0.0039387648926672673 -0.0038462245135159633</CenterOfMass>
+<Inertia>5.0255428571135091e-007 2.3747374395973025e-006 2.2309313845774135e-006 0 0 -1.8669103283560108e-008</Inertia>
+</MassProperties>
+<GeometryFile name="proximalLittle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="proximalPart" uid="proximalPart*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="proximalPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0056943815770665708</Mass>
+<CenterOfMass>0.004087930096720897 0.0045783543303688683 -0.01284622451351596</CenterOfMass>
+<Inertia>2.9806587323836596e-007 2.1600030242589761e-006 2.220431685290191e-006 0 0 -1.9701508717344807e-008</Inertia>
+</MassProperties>
+<GeometryFile name="proximalPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
